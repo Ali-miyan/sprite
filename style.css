@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'sprite';
+    src: url(fonts/AktivGroteskCd_Trial_Blk.ttf);
+}
+.imglogo {
+    width: 131px;
+    height: 50px;
+    float: left;
+    padding-left: 42px;
+    padding-top: 20px;
+}
+.headerlist {
+    float: left;
+    height: 100px;
+    width: 60%;
+}
+.headerfont {
+    list-style: none;
+    overflow: hidden;
+    height: 90px;
+    padding-left: 10px;
+}
+.headerfont li:hover{
+    color: black;
+    cursor: pointer;
+    border-bottom: black;
+}
+
+
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(0, 155, 78);
+    position: fixed;
+    
+}
+
+    .upline1 {
+        font-family: sprite;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        margin-left: 62px;
+        float: left;
+        margin-top: 36px;
+    }
+    .upline2 {
+        font-family: sprite;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        margin-left: 48px;
+        float: left;
+        margin-top: 36px;
+    }
+    .upline3 {
+        font-family: sprite;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        margin-left: 48px;
+        float: left;
+        margin-top: 36px;
+    }
+    .upline4 {
+        font-family: sprite;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        margin-left: 48px;
+        float: left;
+        margin-top: 36px;
+    }
+   
+    
+
+.iconline {
+    display: inline;
+    float: left;
+    margin-left: 92px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.socialmenu {
+    width: 34%;
+    display: inline-flex;
+    height: 89px;
+    margin-left: -1px;
+}
+.socialicons{
+    width: 10cm;
+    height: 54px;
+    font-weight: 400;
+    margin-top: 36px;
+    letter-spacing: 32px;
+    margin-left: 161px;
+    font-size: 19px;
+    display: inline-flex;
+}
+.socialbtn1{
+    width: 21px;
+    height: 21px;
+    background-color: rgb(255, 255, 255); 
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+.fb{
+    margin-left: 29px;
+    margin-top: -3px;
+
+}
+.twit{
+    margin-left: 25px;
+    margin-top: -3px;
+
+}
+.you{
+    margin-left: 24px;
+    margin-top: -3px;
+
+}
+.ins{
+    margin-left: 24px;
+    margin-top: -3px;
+
+}
+.spot{
+    margin-left: 24px;
+    margin-top: -4px;
+
+}
+.profile{
+    float: right;
+    color: #ffffff;
+    font-size: 17px; 
+    font-size: 17px;  
+    margin-right: 56px;
+    margin-top: 36px;
+}
+
+.body1{
+    width: 100%;
+    height: 750px;
+    background-color: black;
+
+}
+.part3{
+    width: 100%;
+    height: 858px ;
+}
+
+
+.imgbottle {
+    margin-top: 170px;
+    height: 534px;
+    margin-left: 0px;
+}
+.part2text{
+    width: 58%;
+    height: 750px;
+    float: right;
+    
+}
+.firsttext {
+    line-height: 116px;
+    color: rgb(0, 155, 78);
+    padding-top: 197px;
+    padding-left: 3px;
+    font-size: 96px;
+    font-family: 'sprite';
+}
+.textimg {
+      margin-top: 27px;
+      width: 600px;
+     padding-left: 4px;
+}
+    
+.button1 {
+    margin-left: 4px;
+    display: flow;
+    margin-top: 37px;
+    background-color:rgb(255, 209, 0);
+    height: 44px;
+    width: 187px;
+    border: none;
+    font-family: 'sprite';
+    font-size: 16px;
+    color: black;
+}
+.button1:hover{
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+.div1{
+    width: 50%;
+    float: left;
+    height: 374px;
+    
+}
+.div2{
+    width: 50%;
+    float: right;
+
+}
+.bottomimg {
+    width: 507px;
+    margin-top: 42px;
+    margin-left: 63px;
+    height: 284px;
+}
+.bottomimg2 {
+    width: 50px;
+    height: 42px;
+    margin-left: 524px;
+    display: flex;
+}
+.sectext {
+    margin-top: 42px;
+    margin-left: 8px;
+    font-size: 64px;
+    line-height: 64px;
+    font-family: 'sprite';
+}
+.thirdtext {
+    margin-top: 16px;
+    margin-left: 0px;
+    font-size: 29.984px;
+    line-height: 35.9808px;
+    font-family: 'sprite';
+}
+.button2 {
+    margin-left: 3px;
+    display: flow;
+    margin-top: 47px;
+    background-color: rgb(255, 209, 0);
+    height: 33px;
+    text-align: center;
+    width: 149px;
+    border: none;
+    font-family: 'sprite';
+    font-size: 13px;
+    color: black;
+}
+.button2:hover{
+    color: #ffffff;
+    background-color: rgb(45,45,45);
+    cursor: pointer;
+}
+.div4{
+    float: right;
+    width: 47%;
+    height: 483px;
+}
+.div4img {
+    height: 438px;
+    margin-left: 54px;
+    margin-top: 46px;
+    width: 461px;
+}
+.div3{
+    float: right;
+    width: 53%;
+    height: 483px;
+
+}
+.div3text {
+    margin-top: 144px;
+    margin-left: 106px;
+    font-size: 64px;
+    line-height: 80px;
+    font-family: 'sprite';
+    color:rgb(0, 155, 78);
+
+}
+.footer{
+    width: 100%;
+    height: 275px;
+    background-color: rgb(0, 155, 78);
+    display: flex;
+
+
+}
+.footer1{
+    width: 30%;
+    height: 272px;
+    
+}
+.footer1img {
+    height: 46.5px;
+    width: 123px;
+    padding-left: 197.5px;
+    padding-top: 103.5px;
+}
+.footer2{
+    width: 30%;
+    height: 272px;
+
+}
+.fb1{
+    padding-left: 48px;
+    padding-top: 50px;
+}
+
+h3 {
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-left: 65.5px;
+    margin-top: 57px;
+}
+.footer3{
+    width: 40%;
+    height: 272px;
+}
+.footer3h2{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 54.8px;
+    margin-left: 5px;
+}
+.footer3ul {
+    list-style: none;
+    line-height: 33.6px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.footer3ul li{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.footer3ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.footer4{
+    width: 100%;
+    height: 144px;
+    background-color: rgb(0, 155, 78);
+}
+.footer4h2 {
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding-left: 486px;
+    padding-top: 49px;
+}
+.footer4list {
+    display: flex;
+    padding-left: 225px;
+    list-style: none;
+    padding-top: 22.5px;
+}
+
+
+
+.list1{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding-left: 10px;
+
+}
+.list1:hover{
+    color: black;
+    cursor:pointer;
+}
+
+.list2{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-left: solid 1px;
+    padding-left: 10px;
+}
+.list2:hover{
+    color: black;
+    cursor:pointer;
+    border-left: solid 1px ;
+    border-color: rgb(255, 255, 255);
+}
+.list3{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-left: solid 1px;
+    padding-left: 10px;
+}
+.list3:hover{
+    color: black;
+    cursor:pointer;
+    border-left: solid 1px ;
+    border-color: rgb(255, 255, 255);
+}
+.list4{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-left: solid 1px;
+    padding-left: 10px;
+}
+.list4:hover{
+    color: black;
+    cursor:pointer;
+    border-left: solid 1px ;
+    border-color: rgb(255, 255, 255);
+}
+.list5{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-left: solid 1px;
+    padding-left: 10px;
+}
+.list5:hover{
+    color: black;
+    cursor:pointer;
+    border-left: solid 1px ;
+    border-color:  rgb(255, 255, 255);
+}
+.list6{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-left: solid 1px;
+    padding-left: 10px;
+}
+.list6:hover{
+    color: black;
+    cursor:pointer;
+    border-left: solid 1px ;
+    border-color:  rgb(255, 255, 255);
+}
+.list7{
+    font-family: sprite;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-left: solid 1px;
+    padding-left: 10px;
+}
+.list7:hover{
+    color: black;
+    cursor:pointer;
+    border-left: solid 1px ;
+    border-color: rgb(255, 255, 255);
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
